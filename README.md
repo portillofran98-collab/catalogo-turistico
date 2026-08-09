@@ -1,8 +1,8 @@
 # 🇸🇻 Catálogo Turístico de El Salvador
 
-Aplicación web desarrollada con **Laravel** que permite consultar un catálogo de lugares turísticos de El Salvador.
+Aplicación web desarrollada con Laravel que permite consultar un catálogo de lugares turísticos de El Salvador.
 
-El proyecto implementa el patrón arquitectónico **MVC (Modelo-Vista-Controlador)** y utiliza un archivo **JSON** como fuente de datos.
+El proyecto implementa el patrón arquitectónico MVC (Modelo-Vista-Controlador) y utiliza un archivo JSON como fuente de datos.
 
 ---
 
@@ -15,7 +15,7 @@ El sistema permite a los usuarios:
 - Consultar departamento, categoría, precio, ubicación, horario y descripción.
 - Enviar un formulario de contacto para solicitar más información.
 
-El objetivo principal es comprender el funcionamiento del patrón MVC en Laravel y el flujo de información entre las diferentes capas de la aplicación.
+El objetivo principal es demostrar el funcionamiento del patrón MVC en Laravel y el flujo de información entre las diferentes capas de la aplicación.
 
 ---
 
@@ -29,10 +29,11 @@ El objetivo principal es comprender el funcionamiento del patrón MVC en Laravel
 - JSON
 - Visual Studio Code
 - XAMPP
+- Git y GitHub
 
 ---
 
-## 📁 Estructura principal del proyecto
+## 📁 Estructura principal
 
 ```text
 catalogo-turistico/
@@ -73,8 +74,8 @@ catalogo-turistico/
 ├── bootstrap/
 ├── tests/
 │
-├── .env
 ├── .gitignore
+├── .env.example
 ├── artisan
 ├── composer.json
 └── README.md
